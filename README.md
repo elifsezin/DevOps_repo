@@ -15,18 +15,34 @@ _It is kind of a social network for developers._
 [Git]: <https://git-scm.com>
 [GitHub]: <https://github.com/elifsezin>
 
->**Basic Git Commands:**
+>###Basic Git Commands:
 > 
-> git init: it helps us to install git in our project. now our project becomes a git repository in our local.
+> ***git init***: it helps us to install git in our project. now our project becomes a git repository in our local.
 > 
-> git add: We add the files we want git to follow by specifying them with the git add command. 'git add .' we can add our files other than the files specified in .gitignore.
+> ***git add***: We add the files we want git to follow by specifying them with the git add command. 'git add .' we can add our files other than the files specified in .gitignore.
 > 
-> git commit: we commit the changes of the project to our local repo
+> ***git commit***: we commit the changes of the project to our local repo
 > 
-> git pull: we pull changes from remote server to our local. 
+> ***it pull***: we pull changes from remote server to our local. 
 > 
-> git push: we push our local changes to the remote server.
+> ***git push***: we push our local changes to the remote server.
 > 
-> git fetch: pull branch information from remote server
+> ***git fetch***: pull branch information from remote server
 > 
-> git status: allows us to see the changes we have made in our project, adding-removing-editing.
+> ***git status***: allows us to see the changes we have made in our project, adding-removing-editing.
+> 
+> ***git checkout***: allows us to switch between different branches
+> 
+> ***git stash***: It allows Git to temporarily save the changes you have worked on but not yet committed, and restore your active branch to a clean state with no changes.
+> 
+>***[click]*** for more commands
+> 
+[click]: <https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>
+
+### Git For DevOps
+
+- Kubernetes configuration files, bash and phyton scripts and files like that should be tracked, stored and be shareable for the DevOps team.
+
+- DevOps engineers as a team works and manages the same infrastructure together and they may need some kind of collaboration on those configuration files. This is the main reason why git repository is used for that.
+
+- Secondly, for a DevOps engineer using CI/CD pipeline, git repository is necessary to integrate build automation tool.
