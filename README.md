@@ -15,7 +15,7 @@ _It is kind of a social network for developers._
 [Git]: <https://git-scm.com>
 [GitHub]: <https://github.com/elifsezin>
 
-###Basic Git Commands:
+### Basic Git Commands:
 
 | Command | Effect |
 | ------ | ------ |
@@ -61,20 +61,20 @@ java -jar <name of the file>
 ``` 
 runs the application
 
-- On the other hand [Java Script] has no special artifact type (zip/tar files are the type of js and they does not include dependencies) and to build package managers like [npm] and yard are used. This package managers both use the same dependency file (package.json).
+- On the other hand [JavaScript] has no special artifact type (zip/tar files are the type of js and they does not include dependencies) and to build package managers like [npm] and yard are used. This package managers both use the same dependency file (package.json).
 
-- Java Script is more flexible and not standardized thet is why a lot of people choose it to use in their projects.
+- JavaScript is more flexible and not standardized thet is why a lot of people choose it to use in their projects.
 
 
-[Java Script]: <https://www.javascript.com>
+[JavaScript]: <https://www.javascript.com>
 [npm]: <https://www.npmjs.com>
 
-###Some Build Tools & Package Managers for different Programming Languages
+### Some Build Tools & Package Managers for different Programming Languages
 
-|Programming Languag  | Build Tool / Package Manager |
+|Programming Language  | Build Tool / Package Manager |
 | ------ | ------ |
 |java|maven/gradle|
-|java script|npm/yarn/webpack|
+|javascript|npm/yarn/webpack|
 |phyton|pip|
 |C/C++|conan|
 |C#|NuGet|
