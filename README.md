@@ -46,3 +46,4 @@ _It is kind of a social network for developers._
 - DevOps engineers as a team works and manages the same infrastructure together and they may need some kind of collaboration on those configuration files. This is the main reason why git repository is used for that.
 
 - Secondly, for a DevOps engineer using CI/CD pipeline, git repository is necessary to integrate build automation tool.
+
