@@ -27,6 +27,7 @@ _It is kind of a social network for developers._
 |git fetch| pull branch information from remote server.|
 |git status| allows us to see the changes we have made in our project, adding-removing-editing.|
 |git merge| allow us to apply changes in one branch to another. |
+
 ***[click]*** for more commands
 
 [click]: <https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>
