@@ -1,6 +1,6 @@
-#DevOps Progress
+# DevOps Progress
 
-##_Version Control with Git_
+## _Version Control with Git_
 
 - [Git] is a version control system, it helps us to systematically store and manage the code we write not only on our own device but also on a remote server.
 - It allows us to monitor the status (editing, deleting, adding new files) of the files in our project (except the ones we add to .gitignore), and to develop our project safely without breaking our core code.
@@ -14,3 +14,19 @@ _It is kind of a social network for developers._
 
 [Git]: <https://git-scm.com>
 [GitHub]: <https://github.com/elifsezin>
+
+>**Basic Git Commands:**
+> 
+> git init: it helps us to install git in our project. now our project becomes a git repository in our local.
+> 
+> git add: We add the files we want git to follow by specifying them with the git add command. 'git add .' we can add our files other than the files specified in .gitignore.
+> 
+> git commit: we commit the changes of the project to our local repo
+> 
+> git pull: we pull changes from remote server to our local. 
+> 
+> git push: we push our local changes to the remote server.
+> 
+> git fetch: pull branch information from remote server
+> 
+> git status: allows us to see the changes we have made in our project, adding-removing-editing.
