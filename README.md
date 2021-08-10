@@ -15,28 +15,20 @@ _It is kind of a social network for developers._
 [Git]: <https://git-scm.com>
 [GitHub]: <https://github.com/elifsezin>
 
->###Basic Git Commands:
-> 
-> ***git init***: it helps us to install git in our project. now our project becomes a git repository in our local.
-> 
-> ***git add***: We add the files we want git to follow by specifying them with the git add command. 'git add .' we can add our files other than the files specified in .gitignore.
-> 
-> ***git commit***: we commit the changes of the project to our local repo
-> 
-> ***it pull***: we pull changes from remote server to our local. 
-> 
-> ***git push***: we push our local changes to the remote server.
-> 
-> ***git fetch***: pull branch information from remote server
-> 
-> ***git status***: allows us to see the changes we have made in our project, adding-removing-editing.
-> 
-> ***git checkout***: allows us to switch between different branches
-> 
-> ***git stash***: It allows Git to temporarily save the changes you have worked on but not yet committed, and restore your active branch to a clean state with no changes.
-> 
->***[click]*** for more commands
-> 
+###Basic Git Commands:
+
+| Command | Effect |
+| ------ | ------ |
+|git init| it helps us to install git in our project. now our project becomes a git repository in our local.|
+|git add| We add the files we want git to follow by specifying them with the git add command. 'git add .' we can add our files other than the files specified in .gitignore.|
+|git commit| we commit the changes of the project to our local repo.|
+|git pull| we pull changes from remote server to our local.|
+|git push| we push our local changes to the remote server.|
+|git fetch| pull branch information from remote server.|
+|git status| allows us to see the changes we have made in our project, adding-removing-editing.|
+|git merge| allow us to apply changes in one branch to another. |
+***[click]*** for more commands
+
 [click]: <https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>
 
 ### Git For DevOps
@@ -47,3 +39,53 @@ _It is kind of a social network for developers._
 
 - Secondly, for a DevOps engineer using CI/CD pipeline, git repository is necessary to integrate build automation tool.
 
+## _Build Tools and Package Managers_
+- Build tools are used to build the artifact and they are specific to the programming language. To examplify, for [Java], [Maven] and [Gradle] are used as a build tool. Then when you install dependencies, you can compile and compress the code. 
+
+[Java]: <https://www.java.com/tr/>
+[Maven]:<https://maven.apache.org>
+[Gradle]: <https://gradle.org>
+
+>### Dependencies
+> Other applications that we use in our project are collected under the title of dependecy.
+> 
+> Our project needs these applications in order to work properly and fully, that is, it is dependent on these projects.
+> 
+> We specify the author of the application we use in dependency, the name of the application and the version we use
+so maven/gradle can understand exactly which app to pull.
+
+for Java;
+```java
+java -jar <name of the file>
+``` 
+runs the application
+
+- On the other hand [Java Script] has no special artifact type (zip/tar files are the type of js and they does not include dependencies) and to build package managers like [npm] and yard are used. This package managers both use the same dependency file (package.json).
+
+- Java Script is more flexible and not standardized thet is why a lot of people choose it to use in their projects.
+
+
+[Java Script]: <https://www.javascript.com>
+[npm]: <https://www.npmjs.com>
+
+###Some Build Tools & Package Managers for different Programming Languages
+
+|Programming Languag  | Build Tool / Package Manager |
+| ------ | ------ |
+|java|maven/gradle|
+|java script|npm/yarn/webpack|
+|phyton|pip|
+|C/C++|conan|
+|C#|NuGet|
+
+
+### Build Tools and Docker
+
+- Thanks to Docker there is no need to build different artifact types and repository for each file type. Also dependencies are not necessary on Docker,too.
+- Docker uses Docker Images which is an alternative for all artifact types and it makes most of the process easier but you still need to build the Apps.
+
+### Build Tools and DevOps
+- the process as an Devops engineer is
+> build docker image => push to repo => run on server
+
+so you need the configure the buil automation tool.
